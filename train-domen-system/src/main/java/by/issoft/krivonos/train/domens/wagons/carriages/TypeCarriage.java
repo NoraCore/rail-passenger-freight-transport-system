@@ -1,4 +1,4 @@
-package by.issoft.krivonos.train.domens.wagon;
+package by.issoft.krivonos.train.domens.wagons.carriages;
 
 public enum TypeCarriage {
     SITTING,

@@ -4,10 +4,10 @@ import java.util.UUID;
 
 public class Cargo {
     private UUID id;
-    private CargoType cargoType;
+    private TypeCargo cargoType;
     private int weight;
 
-    public Cargo(UUID id, CargoType cargoType, int weight) {
+    public Cargo(UUID id, TypeCargo cargoType, int weight) {
         this.id = id;
         this.cargoType = cargoType;
         this.weight = weight;

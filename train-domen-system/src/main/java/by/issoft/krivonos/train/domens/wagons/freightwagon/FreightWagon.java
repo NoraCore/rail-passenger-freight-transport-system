@@ -1,11 +1,13 @@
-package by.issoft.krivonos.train.domens.wagon;
+package by.issoft.krivonos.train.domens.wagons.freightwagon;
 
 import by.issoft.krivonos.train.domens.cargos.Cargo;
-
-import java.util.UUID;
+import by.issoft.krivonos.train.domens.wagons.Wagon;
 
 public class FreightWagon extends Wagon {
-    private UUID id;
+
+    private int volume;
+    private int weight;
+    private int loading;
     private Cargo cargo;
 
     public FreightWagon(Cargo cargo) {

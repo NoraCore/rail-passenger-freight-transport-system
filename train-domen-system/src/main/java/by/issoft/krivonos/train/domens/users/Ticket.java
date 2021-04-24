@@ -1,6 +1,6 @@
 package by.issoft.krivonos.train.domens.users;
 
-import by.issoft.krivonos.train.domens.wagon.Seat;
+import by.issoft.krivonos.train.domens.wagons.carriages.Seat;
 
 import java.util.Date;
 import java.util.UUID;
